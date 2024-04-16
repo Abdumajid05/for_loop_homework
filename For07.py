@@ -6,4 +6,9 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return
+    l=[]
+    for i in range(N):
+        if i%2==1:
+            l.append(i)
+    return sum(l)
+print(main(12))
